@@ -10,3 +10,6 @@ interface Admin {
     age: number;
     role: string;
 }
+declare function getUserType(obj: User | Admin): "user" | "Admin";
+declare let admin1: Admin;
+declare let user1: User;
