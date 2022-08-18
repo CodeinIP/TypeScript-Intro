@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+.button{
+  border:none;
+  outline:none;
+  padding:10px 15px;
+  background-color: lightblue;
+  font-size: 16px;
+  font-weight: bold;
+  color: gray;
+  border-radius: 5px;
+  margin: 10px;
+}
+.button:hover{
+  background-color: aqua;
+  color:white;
+}
+.counter, .todo{
+  border:3px solid lightgray;
+  padding:1rem;
+  width: 400px;
+  box-sizing: border-box;
+  margin: 1rem auto;
+  border-radius: 1rem;
+}
+.input{
+  outline: none;
+  border:none;
+  border-bottom: 2px solid rgb(146, 146, 139);
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+  color:rgb(193, 193, 65)
+}
+.todoitem{
+  display: flex;
+  justify-content:space-between;
+  padding:5px 10px;
+  margin: 5px auto;
+  align-items: center;
+  border:1px solid lightgray;
+  border-radius: 10px;
+}
+.todoitem button{
+  cursor: pointer;
+}
